@@ -92,7 +92,7 @@ scaling: 0
 > **提示** 在基于NuttX的系统(Pixhawk, Pixracer等)， `listener`命令可从地面站*QGroundControl* MAVLink控制台调用，来监听传感器数值和其他话题。 这是一个强大的调试工具，因为QGC通过无线链路连接时也可以使用它（例如，当无人机在飞行过程中）。更多信息可以看[Sensor/Topic Debugging](../debug/sensor_uorb_topic_debugging.md).
 
 
-### uorb up 命令
+### uorb top 命令
 `uorb top` 命令可以实时显示每个话题的发布频率：
 
 ```sh
